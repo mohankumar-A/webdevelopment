@@ -158,6 +158,9 @@ ssh-add -l
 # deletes all the keys
 ssh-add -D
 
+# check connection of github
+ssh -T git@github.com
+
 ```
 
 ## Windows: 

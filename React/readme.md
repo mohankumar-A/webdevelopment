@@ -47,7 +47,11 @@ npm start
 
 - ComponentWillUnmount()
 
-
 props
 children
 state
+
+## Hooks:
+
+ const [stateVar, setStateVar] = useState()
+useEffect(() => {}, [])

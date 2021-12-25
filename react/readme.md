@@ -55,3 +55,19 @@ state
 
  const [stateVar, setStateVar] = useState()
 useEffect(() => {}, [])
+
+## redux
+
+- Good for managing large state.
+- useful for sharing between containers.
+- pridictable state management three principal
+    - single source of truth.
+    - state is readonly.
+    - Changes using pure functions.
+- action->reducer->store->make changes
+
+Flux pattern
+
+action->dispatcher->store->view
+
+Redux toolkit

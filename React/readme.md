@@ -71,3 +71,24 @@ Flux pattern
 action->dispatcher->store->view
 
 Redux toolkit
+
+## Lib for react:
+- Ramda (functional programme)
+- lodash (utility)
+- glamorous (css)
+- styled component (css)
+- css modules (css)
+
+- Gatsby (static web site)
+- nextjs (server side rendering)
+- material UI (component)
+- semantic UI (component)
+
+- Reselect (selector)
+- redux-saga (redux thung like, asnyc)
+- immutablejs (state in imutable)
+
+## Module bundler:
+- parcel (zero config)
+- webpack
+- rollup.js (tree shake)

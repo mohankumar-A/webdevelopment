@@ -149,5 +149,63 @@ Here is a great resource if you want to learn more about what will be coming up 
 
 https://developers.google.com/web/fundamentals/performance/http2/
 
+## Performance part II
+
+Updated Code For This Section
+You can find all the code used in this section with the latest up to date libraries below if you encounter any issues:
+
+https://github.com/aneagoie/code-splitting-exercise
+
+https://github.com/aneagoie/code-splitting-exercise-updated
+
+https://github.com/aneagoie/robofriends-pwa
+
+https://github.com/aneagoie/Center-For-Robotos-Who-Cant-Be-In-The-App-Store-And-Wanna-Learn-To-Do-Other-Stuff-Good-Too-update
+
+### Code splitting / progressive bootstraping
+
+React.lazy
+suspense
+
+loadable component
+
+React router
+React loader
+
+### (?react_perf) performance:
+
+shouldComponentUpdate (use cautiosly for performance improvement)
+
+use why did you update (why-did-you-update)? to find the unneccessary component update.
+
+PureComponent: renders only the props changes, one caveat is this will shallow compare the props, since this will work inproperly sometimes.
+
+common performance issue is unneccessary re-render.
+
+To get familiar with the asynchronous nature of setState(), have a look at:
+
+https://medium.com/@wereHamster/beware-react-setstate-is-asynchronous-ce87ef1a9cf3
+
+https://vasanthk.gitbooks.io/react-bits/patterns/19.async-nature-of-setState.html
+
+Finally, have a look at this tool mentioned in the previous video:
+
+
+Why did you update package now is deprecated and the newer: [Why did you render?](https://www.npmjs.com/package/@welldone-software/why-did-you-render) is recommended.
+
+### Optimizing Code Review:
+
+Only load what needed:
+- Code spliting
+- Tree shaking
+Avoid blocking main thread
+Avoid memory leaks
+Avoid multiple rerendering.
+
+### Resources: Tree Shaking 101
+Tree shaking is one of those things that will get optimized and improved upon in the Javascript landscape. For now, though, the best way to use tree shaking in your apps is to follow this wonderful guide:
+
+https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/
+
 
 

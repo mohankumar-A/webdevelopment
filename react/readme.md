@@ -92,3 +92,19 @@ Redux toolkit
 - parcel (zero config)
 - webpack
 - rollup.js (tree shake)
+
+## github pages:
+
+https://github.com/gitname/react-gh-pages
+
+npm i --save-dev gh-pages
+
+add homepage: http://{username}.github.io/{repo-name}
+
+script command:
+
+predeploy: "npm run build"
+deploy: "gh-pages -d build"
+
+then run:
+npm run deploy
